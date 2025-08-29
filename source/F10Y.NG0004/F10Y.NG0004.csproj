@@ -17,4 +17,7 @@
   <ItemGroup>
     <PackageReference Include="LibGit2Sharp" Version="0.31.0" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(NuGetPackageRoot)\libgit2sharp\0.31.0\lib\net8.0\LibGit2Sharp.xml" CopyToOutputDirectory="Always" />
+  </ItemGroup>
 </Project>
